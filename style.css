@@ -325,3 +325,26 @@
 .trainer .people .instructor .position {
 	padding: 0px 10px 5px 20px;
 }
+
+.classes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 7rem 8rem;
+}
+
+.classes .text {
+	font-size: 1.3rem;
+	color: #95a5a6;
+	padding-bottom: 6px;
+	text-align: center;
+}
+
+.classes .title {
+	font-size: 2.2rem;
+	color: #212529;
+	font-weight: 700;
+	padding-bottom: 50px;
+	text-align: center;
+}
