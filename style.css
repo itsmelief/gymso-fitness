@@ -7,7 +7,6 @@
 	font-family: "Poppins", sans-serif;
 }
 
-
 .nav {
 	position: fixed;
 	display: flex;
@@ -36,6 +35,7 @@
 	list-style: none;
 	padding-right: 50px;
 }
+
 #item li a {
 	text-decoration: none;
 	font-size: 1rem;
@@ -43,6 +43,7 @@
 	color: #fff;
 	cursor: pointer;
 }
+
 #item li a:hover {
 	color: #ff5733;
 }
@@ -50,6 +51,7 @@
 #item .icon {
 	text-align: center;
 }
+
 #item .icon i {
 	color: #dde1e7;
 	font-weight: bolder;
@@ -61,19 +63,21 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
 #item .icon .fa-twitter:hover {
 	background: #1d9bf0;
     color: #fff;
 }
+
 #item .icon .fa-tiktok:hover {
 	background: #1b1a17;
     color: #fff;
 }
+
 #item .icon .fa-youtube:hover {
 	background: #fff;
     color: #ff0000;
 }
-
 
 .back {
 	background-image: url(assets/bg.jpg);
@@ -89,7 +93,6 @@
 	height: 100%;
 	opacity: 0.85;
 }
-
 
 .mid {
 	position: absolute;
@@ -125,6 +128,7 @@
 	padding: 0.9rem 1.6rem;
 	border: none;
 }
+
 .mid .btn a.btn-1:hover {
 	color: #ff5733;
 }
@@ -136,11 +140,11 @@
 	padding: 0.9rem 1.6rem;
 	border-radius: 3px;
 }
+
 .mid .btn a.btn-2:hover {
 	background: #fff;
 	border: 1px solid #fff;
 }
-
 
 .details {
 	width: 100%;
@@ -162,20 +166,24 @@
 	flex-direction: column;
 	justify-content: flex-start;
 }
+
 .details .one h3 {
 	font-size: 2.5rem;
 	padding-bottom: 1.1rem;
 }
+
 .details .one h6 {
 	font-size: 1.3rem;
 	font-weight: 400;
 	padding-bottom: 1.2rem;
 }
+
 .details .one p {
 	color: #666262;
 	font-size: 1.2rem;
 	padding-bottom: 3rem;
 }
+
 .details .one a {
 	color: #fff;
 	background: #f13a11;
@@ -184,6 +192,7 @@
 	text-transform: uppercase;
 	text-align: center;
 }
+
 .details .one a:hover {
 	background: #fff;
 	color: #f13a11;
@@ -194,18 +203,20 @@
 	border-left: 1px solid #666262;
 	padding-left: 4rem;
 }
+
 .details .two h3 {
 	font-size: 2.5rem;
 }
+
 .details .two h5 {
 	font-size: 1.1rem;
 }
+
 .details .two p {
 	color: #666262;
 	font-size: 1.1rem;
 	margin-bottom: 0.8rem;
 }
-
 
 .trainer {
 	background: #f9f9f9;
@@ -219,11 +230,13 @@
 .trainer .about {
 	width: 39%;
 }
+
 .trainer .about h2 {
 	font-size: 2.1rem;
 	color: #212529;
 	padding-bottom: 1.8rem;
 }
+
 .trainer .about p {
 	font-size: 1.1rem;
 	color: #7f8c8d;
@@ -243,6 +256,7 @@
   	13px 13px 24.1px rgba(0, 0, 0, 0.059),
   	43px 43px 80px rgba(0, 0, 0, 0.09);
 }
+
 .trainer .people .instructor-1 .img img {
 	width: 100%;
 	object-fit: cover;
@@ -254,6 +268,7 @@
 	justify-content: center;
 	padding-bottom: 10px;
 }
+
 .trainer .people .instructor-1 .name, 
 .trainer .people .instructor-1 .position {
 	display: flex;
@@ -266,12 +281,14 @@
 	color: #212529;
 	font-size: 1.5rem;
 }
+
 .trainer .people .instructor-1 .name i {
 	color: #1d9bf0;
 	font-size: 1.3rem;
 	font-weight: bolder;
 	cursor: pointer;
 }
+
 .trainer .people .instructor-1 .name {
 	padding: 5px 20px 0 20px;
 }
@@ -279,12 +296,14 @@
 .trainer .people .instructor-1 .position p {
 	color: #212529;
 }
+
 .trainer .people .instructor-1 .position i {
 	color: #212529;
 	font-size: 1.3rem;
 	font-weight: bolder;
 	cursor: pointer;
 }
+
 .trainer .people .instructor-1 .position {
 	padding: 0px 20px 5px 20px;
 }
