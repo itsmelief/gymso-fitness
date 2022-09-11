@@ -852,7 +852,100 @@ responsive - media query
 }
 
 @media screen and (max-width: 768px) {
-	
+	.nav h2 {
+		font-size: 1.5rem;
+	}
+	.back {
+		background-position: center;
+	}
+	.mid p {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+	.mid h2 {
+		font-size: 2.1rem;
+	}
+	.mid .btn {
+		margin-top: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.mid .btn a.btn-1, .mid .btn a.btn-2 {
+		padding: 0.7rem 1.4rem;
+		margin-bottom: 7px;
+	}
+
+	.details {
+		padding: 5rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.details .one {
+		width: 70%;
+	}
+	.details .one a {
+		font-size: 1rem;
+	}
+	.details .two {
+		padding-left: 0;
+		border-left: 0;
+		border-top: 1px solid #666262;
+		width: 70%;
+		margin-top: 1.7rem;
+		padding-top: 1.7rem;
+	}
+
+	.trainer {
+		padding: 5rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.trainer .about {
+		width: 70%;
+		margin-bottom: 1.7rem;
+	}
+	.trainer .people {
+		width: 70%;
+	}
+
+	.classes {
+		padding: 6rem;
+	}
+	.classes .class-menu {	
+		flex-direction: column;
+		justify-content: center;
+	}
+	.classes .class-menu .instructor {
+		width: 65%;
+		margin-bottom: 20px;
+	}
+
+	.contact {
+		padding: 5rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contact .form {
+		width: 70%;
+		margin-bottom: 1.5rem;
+	}
+	.contact .form h2 {
+		font-size: 2.5rem;
+	}
+	.contact .map {
+		width: 60%;
+	}
+	.footer {
+		padding: 5rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 496px) {
