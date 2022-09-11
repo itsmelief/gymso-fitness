@@ -7,6 +7,79 @@
 	font-family: "Poppins", sans-serif;
 }
 
+/* 
+---------------------------------------------
+pre header
+--------------------------------------------- 
+*/
+.pre-header {
+	background-color: #efefef;
+  	height: 60px;
+  	padding: 15px 105px;
+}
+
+.pre-header ul li {
+  	display: inline-block;
+}
+
+.pre-header ul.info li {
+  	margin-right: 45px;
+}
+
+.pre-header ul.info li a {
+  	color: #afafaf;
+  	font-size: 14px;
+  	transition: all .3s;
+  	text-decoration: none;
+}
+
+.pre-header ul.info li a:hover {
+  	color: #fe664e;
+}
+
+.pre-header ul.info li a i {
+  	font-size: 18px;
+  	margin-right: 8px;
+}
+
+.pre-header .social-media {
+  	text-align: right;
+  	margin-top: -33px;
+}
+
+.pre-header .social-media i {
+  	background-color: #afafaf;
+  	color: #fff;
+	margin: 5px 5px 0;
+  	width: 35px;
+  	height: 35px;
+  	line-height: 35px;
+  	text-align: center;
+  	border-radius: 50%;
+  	font-size: 0.80rem;
+  	font-weight: bolder;
+  	transition: .5s;
+  	z-index: 3;
+}
+
+.pre-header .social-media .fa-twitter:hover {
+	background: #1d9bf0;
+    color: #fff;
+}
+.pre-header .social-media .fa-tiktok:hover {
+	background: #1b1a17;
+    color: #fff;
+}
+.pre-header .social-media .fa-youtube:hover {
+	background: #fff;
+    color: #ff0000;
+}
+/* 
+---------------------------------------------
+end pre header
+--------------------------------------------- 
+*/
+
 .nav {
 	position: fixed;
 	display: flex;
@@ -75,6 +148,12 @@
 #item .icon .fa-youtube:hover {
 	background: #fff;
     color: #ff0000;
+}
+
+#bar {
+	color: #ff5733;
+	font-size: 1.5rem;
+	display: none;
 }
 
 .back {
@@ -177,7 +256,7 @@
 .details .one p {
 	color: #666262;
 	font-size: 1.2rem;
-	padding-bottom: 3rem;
+	padding-bottom: 2.5rem;
 }
 
 .details .one a {
@@ -483,7 +562,7 @@
 	border: 1px solid #212529;
 }
 
-.contact .form .submit input::placeholder {
+.contact .form .submit input:focus::placeholder {
 	color: #7f8c8d;
 	font-size: 1.1rem;
 }
@@ -551,3 +630,128 @@
 	color: #f13a11;
 	padding-right: 10px;
 }
+
+/* 
+---------------------------------------------
+responsive - media query
+--------------------------------------------- 
+*/
+@media screen and (max-width: 1024px) {
+	.nav {
+		padding: 1rem 6.5rem;
+	}
+	.nav h2 {
+		font-size: 1.4rem;
+	}
+	#item li {
+		padding-right: 30px;
+	}
+	#item li a {
+		font-size: 0.9rem;
+	}	
+	#item .icon i {
+		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.nav {
+		padding: 1rem 3rem;
+	}
+	.nav h2 {
+		font-size: 1.6rem;
+	}
+	#item {
+		flex-direction: column;
+		text-align: center;
+		width: 300px;
+		height: 80vh;
+		padding: 100px;
+		position: fixed;
+		top: 0;
+		right: -300px;
+		background: rgba(0,0,0,0.8);
+		z-index: 100000;
+		margin-top: 4.2rem;
+		transition: 0.5s;
+	}
+	#item li {
+		padding-right: 0;
+		padding: 4px 0;
+	}
+	#item li a {
+		font-size: 1.2rem;
+	}
+	#item .icon {
+		margin: 10px;
+		padding-bottom: 10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	#item .icon i {
+		padding: 0 15px 0 15px;
+	}
+	#bar {
+		display: initial;
+		cursor: pointer;
+	}
+
+	.mid p {
+		font-size: 1.1rem;
+		margin-bottom: 1.2rem;
+	}
+	.mid h2 {
+		font-size: 2.5rem;
+	}
+	.mid .btn {
+		margin-top: 1.5rem;
+	}
+	.mid .btn a.btn-1, .mid .btn a.btn-2 {
+		padding: 0.7rem 1.4rem;
+	}
+
+	.details {
+		padding: 6rem 7rem;
+	}
+	.details .one {
+		width: 50%;
+	}
+	.details .one h3 {
+		font-size: 2rem;
+	}
+	.details .one p {
+		font-size: 1.1rem;
+	}
+	.details .one a {
+		font-size: 0.9rem;
+	}
+
+	.details .two {
+		padding-left: 3.5rem;
+	}
+	.details .two h3 {
+		font-size: 2rem;
+	}
+	.details .two h5 {
+		font-size: 1rem;
+	}
+	.details .two p {
+		font-size: 1rem;
+		margin-bottom: 0.6rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 496px) {
+	
+}
+/* 
+---------------------------------------------
+end responsive - media query
+--------------------------------------------- 
+*/
