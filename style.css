@@ -741,6 +741,114 @@ responsive - media query
 		font-size: 1rem;
 		margin-bottom: 0.6rem;
 	}
+
+	.trainer {
+		padding: 6rem 7rem;
+	}
+	.trainer .about h2 {
+		font-size: 2rem;
+		padding-bottom: 1.4rem;
+	}
+	.trainer .about p {
+		font-size: 1rem;
+	}
+	.trainer .people .instructor {
+		width: 48%;
+	}
+	.trainer .people .instructor .name {
+		padding: 5px 15px 0 15px;
+	}
+	.trainer .people .instructor .name h4 {
+		font-size: 1.1rem;
+	}
+	.trainer .people .instructor .name i {
+		font-size: 1.1rem;
+		margin: 5px 0 0;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.trainer .people .instructor .position i {
+		font-size: 1.1rem;
+		margin: 1px 1px 0;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.trainer .people .instructor .position {
+		padding: 0 15px 5px 15px;
+	}
+
+	.classes {
+		padding: 6rem;
+	}
+	.classes .text {
+		font-size: 1.1rem;
+		padding-bottom: 4px;
+	}
+	.classes .title {
+		font-size: 2rem;
+		padding-bottom: 30px;
+	}
+	.classes .class-menu .instructor .team-details {
+		padding-bottom: 7px;
+	}
+	.classes .class-menu .instructor .team-details .name {
+		padding: 5px 15px 0 15px;
+	}
+	.classes .class-menu .instructor .team-details .name .name-details h4 {
+		font-size: 1.2rem;
+	}
+	.classes .class-menu .instructor .team-details .name .name-details p {
+		font-size: 1rem;
+	}
+	.classes .class-menu .instructor .team-details .name .name-details p span {
+		font-size: 1rem;
+	}
+	.classes .class-menu .instructor .position {
+		padding: 15px 15px 30px 15px;
+	}
+	.classes .class-menu .instructor .position p {
+		font-size: 1rem;
+	}
+
+	.contact {
+		padding: 6rem;
+	}
+	.contact .form h2 {
+		font-size: 2rem;
+		padding-bottom: 7px;
+	}
+	.contact .form .submit input, 
+	.contact .form .submit textarea {
+		padding: 12px;
+		margin: 10px 0;
+	}
+	.contact .form .submit input:focus::placeholder {
+		font-size: 1rem;
+	}
+	.contact .form .submit textarea::placeholder {
+		font-size: 1rem;
+	}
+	.contact .form .submit a {
+		padding: 13px 0;
+		font-size: 1rem;
+		margin: 10px 0;
+	}
+	.contact .map h2 {
+		font-size: 2rem;
+		padding-bottom: 7px;
+	}
+	.contact .map p {
+		font-size: 1rem;
+		padding-bottom: 20px;
+	}
+	.contact .map p i {
+		padding-right: 4px;
+	}
+	.footer {
+		padding: 6rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
