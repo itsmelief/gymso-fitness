@@ -491,16 +491,6 @@ end pre header
 	font-size: 1.1rem;
 }
 
-/*.classes .class-menu .instructor .team-details .name .num h5 {
-	font-size: 1rem;
-	background: #f13a11;
-	width: 3.5rem;	
-	height: 3.5rem;
-	line-height: 3.5rem;
-	text-align: center;
-	border-radius: 50%;
-}*/
-
 .classes .class-menu .instructor .position {
 	padding: 15px 30px 30px 30px;
 }
@@ -676,7 +666,7 @@ responsive - media query
 		right: -300px;
 		background: rgba(0,0,0,0.8);
 		z-index: 100000;
-		margin-top: 4.2rem;
+		margin-top: 4.46rem;
 		transition: 0.5s;
 	}
 	#item li {
@@ -695,7 +685,10 @@ responsive - media query
 		align-items: center;
 	}
 	#item .icon i {
-		padding: 0 15px 0 15px;
+		padding: 0 12px 0 12px;
+	    width: 45px;
+	    height: 45px;
+		line-height: 45px;
 	}
 	#bar {
 		display: initial;
@@ -860,6 +853,9 @@ responsive - media query
 	.nav h2 {
 		font-size: 1.5rem;
 	}
+	#item {
+		margin-top: 4.2rem;
+	}
 	.back {
 		background-position: center;
 	}
@@ -955,6 +951,9 @@ responsive - media query
 }
 
 @media screen and (max-width: 496px) {
+	#item {
+		margin-top: 4.2rem;
+	}
 	.mid p {
 		margin-bottom: 0.8rem;
 	}
