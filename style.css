@@ -846,6 +846,7 @@ responsive - media query
 	.contact .map p i {
 		padding-right: 4px;
 	}
+
 	.footer {
 		padding: 6rem;
 	}
@@ -939,6 +940,7 @@ responsive - media query
 	.contact .map {
 		width: 60%;
 	}
+
 	.footer {
 		padding: 5rem 2rem;
 		flex-direction: column;
@@ -949,7 +951,56 @@ responsive - media query
 }
 
 @media screen and (max-width: 496px) {
-	
+	.mid p {
+		margin-bottom: 0.8rem;
+	}
+	.mid h2 {
+		font-size: 1.8rem;
+	}
+	.mid .btn {
+		margin-top: 0.7rem;
+	}
+
+	.details {
+		padding: 4rem 1rem;
+	}
+	.details .one, .details .two {
+		width: 100%;
+	}
+
+	.trainer {
+		padding: 4rem 1rem;
+	}
+	.trainer .about {
+		width: 100%;
+	}
+	.trainer .people {
+		width: 80%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.trainer .people .instructor {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.classes {
+		padding: 4rem 1rem;
+	}
+	.classes .class-menu .instructor {
+		width: 90%;
+	}
+
+	.contact {
+		padding: 4rem 1rem;
+	}
+	.contact .form {
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+	.contact .map {
+		width: 100%;
+	}
 }
 /* 
 ---------------------------------------------
