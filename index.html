@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gymso Fitness Website</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -22,10 +23,10 @@
 	<div class="nav">
 		<h2>Gymso Fitness</h2>
 		<ul id="item">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Classes</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#class">Classes</a></li>
+			<li><a href="#contact">Contact</a></li>
 			<div class="icon">
 				<a href="#"><i class="fa-brands fa-twitter"></i></a>
 				<a href="#"><i class="fa-brands fa-tiktok"></i></a>
@@ -35,7 +36,7 @@
 		<i id="bar" class="fa-solid fa-bars"></i>
 	</div>
 
-	<div class="back">
+	<div id="home" class="back">
 		<div class="overlay"></div>
 	</div>
 
@@ -49,13 +50,13 @@
 	</div>
 
 	<div class="details">
-		<div class="one">
+		<div class="one" data-aos="fade-up">
 			<h3>New to the gymso?</h3>
 			<h6>Your membership is up to 2 months FREE ($28.20 per month)</h6>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu tellus lobortis, vulputate ex eget, tristique lectus.</p>
 			<a href="#">Become a member today</a>
 		</div>
-		<div class="two">
+		<div class="two" data-aos="fade-up">
 			<h3>Working hours</h3>
 			<br>
 			<h5>Sunday : Closed</h5>
@@ -67,16 +68,16 @@
 		</div>
 	</div>
 
-	<div class="trainer">
+	<div id="about" class="trainer">
 		<div class="about">
-			<h2>Hello, we are Gymso</h2>
-			<p>A personal trainer is an individual who has earned a certification that demonstrates they have achieved a level of competency for creating and delivering safe and effective exercise propgrams for apparently healthy individuals and groups.
+			<h2 data-aos="fade-up">Hello, we are Gymso</h2>
+			<p data-aos="fade-up">A personal trainer is an individual who has earned a certification that demonstrates they have achieved a level of competency for creating and delivering safe and effective exercise propgrams for apparently healthy individuals and groups.
 				<br>
 				<br>
 			They motivate clients by collaborating to set goals, providing meaningful feedback, and by being a reliable source for accountability. Thanky you.
 			</p>
 		</div>
-		<div class="people">
+		<div class="people" data-aos="fade-up">
 			<div class="instructor">
 				<div class="img">
 					<img src="assets/team1.jpg">
@@ -110,11 +111,11 @@
 		</div>
 	</div>
 
-	<div class="classes">
-		<p class="text">Get A Perfect Body</p>
-		<h2 class="title">Our Training Classes</h2>
+	<div id="class" class="classes">
+		<p class="text" data-aos="fade-up">Get A Perfect Body</p>
+		<h2 class="title" data-aos="fade-up">Our Training Classes</h2>
 		<div class="class-menu">
-			<div class="instructor">
+			<div class="instructor" data-aos="fade-up">
 				<div class="img">
 					<img src="assets/class1.jpg">
 				</div>
@@ -132,7 +133,7 @@
 				</div>
 			</div>
 
-			<div class="instructor">
+			<div class="instructor" data-aos="fade-up">
 				<div class="img">
 					<img src="assets/class2.jpg">
 				</div>
@@ -150,7 +151,7 @@
 				</div>
 			</div>
 
-			<div class="instructor">
+			<div class="instructor" data-aos="fade-up">
 				<div class="img">
 					<img src="assets/class3.jpg">
 				</div>
@@ -170,17 +171,17 @@
 		</div>
 	</div>
 
-	<div class="contact">
+	<div id="contact" class="contact">
 		<div class="form">
-			<h2>Feel free to ask anything</h2>
-			<div class="submit">
+			<h2 data-aos="fade-up">Feel free to ask anything</h2>
+			<div class="submit" data-aos="fade-up">
 				<input type="text" name="" placeholder="Name">
 				<input type="email" name="" placeholder="Email">
 				<textarea placeholder="Message"></textarea>
 				<a href="#">Sent Message</a>
 			</div>
 		</div>
-		<div class="map">
+		<div class="map" data-aos="fade-up">
 			<h2>Where you can find us</h2>
 			<p><i class="fa-solid fa-location-dot"></i> Bekasi, West Java, Indonesia</p>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253814.0396038802!2d106.83328782077075!3d-6.2841795732605945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c6900964f69%3A0xd00495351896398!2sBekasi%2C%20Kota%20Bks%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1662376178037!5m2!1sid!2sid" width="1290" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -195,6 +196,15 @@
 			<i class="fa-solid fa-phone"></i>0821 - 1334 - 4449
 		</p>
 	</div>
+
+	<!-- Animate Scroll -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	    AOS.init({
+	    	offset: 200,
+	    	duration: 1000,
+	    });
+	</script>
 
 	<script src="script.js"></script>
 
